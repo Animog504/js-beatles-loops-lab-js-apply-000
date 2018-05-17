@@ -1,6 +1,6 @@
 /*var musicianArray = ["John Lennon","Paul McCartney","Ringo Star","George Harrison"];
 var instrumentArray = ["Guitar","Bass Guitar","Lead Guitar","Drums"];*/
-var outputArray = [];
+//var outputArray = []; for testing
 /*const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
