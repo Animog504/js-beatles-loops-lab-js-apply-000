@@ -1,6 +1,7 @@
 var musicianArray = ["John Lennon","Paul McCartney","Ringo Star","George Harrison"];
 var instrumentArray = ["Guitar","Bass","Drums","Piano"];
 var outputArray = [];
+
 /*const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
@@ -110,12 +111,12 @@ function johnLennonFacts(factArray)
 
 function iLoveTheBeatles(num)
 {
-
+    var counter = 0;
     var loveBeatles = [];
 	do{
-		loveBeatles[num] = "I love the Beatles!";
-		num++;
-
+  		loveBeatles[counter] = "I love the Beatles!";
+  		counter++;
+  		num++;
     }while(num<15)
 	return loveBeatles;
 }
