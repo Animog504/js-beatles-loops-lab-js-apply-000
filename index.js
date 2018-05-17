@@ -21,7 +21,7 @@ function theBeatlesPlay(musicianArray,instrumentArray)
     {
       musician = this.musicianArray[x].toString();
       instrument = this.instrumentArray[y].toString();
-      tempArray[counter] = " " + musician + " plays " + instrument;  
+      tempArray[counter] = musician + " plays " + instrument;  
       counter++
     }//instrumentArray For Loop
   }//musicianArray For Loop
@@ -38,7 +38,7 @@ function johnLennonFacts(factArray)
   var tempArray = [];
   while(counter < factArray.length)
   {
-    tempArray[counter] = " "+ factArray[counter].toString() + "!!!";
+    tempArray[counter] = factArray[counter].toString() + "!!!";
     counter++;
   }
   return tempArray;
