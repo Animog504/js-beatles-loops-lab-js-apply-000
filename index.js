@@ -44,6 +44,8 @@ function johnLennonFacts(factArray)
   return tempArray;
 }//johnlennonFacts() end
 
+function iLoveTheBeatles(num)
+
 
 
 //------------ TESTING ZOOOOONE!!! --------------
