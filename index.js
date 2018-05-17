@@ -1,30 +1,28 @@
 var musicianArray = ["John Lennon","Paul McCartney","Ringo Star","George Harrison"];
 var instrumentArray = ["Guitar","Bass","Drums","Piano"];
 var outputArray = [];
-
-
-const facts = [
+/*const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
-];
+]; DECLARED ALREADY IGNORE*/ 
 
 function theBeatlesPlay(musicianArray,instrumentArray)
 {
-  
+  var counter = 0
   var musician = "";
   var instrument = "";
   var tempArray = [];
   
   for(var x=0;x < this.musicianArray.length; x++)
   {
-    musician = this.musicianArray[x].toString();
     for(var y=0; y < this.instrumentArray.length; y++)
     {
+      musician = this.musicianArray[x].toString();
       instrument = this.instrumentArray[y].toString();
-      tempArray[x+y] = musician + " plays " + instrument;  //x+y since it will never overlap
-      
+      tempArray[counter] = " " + musician + " plays " + instrument;  
+      counter++
     }//instrumentArray For Loop
   }//musicianArray For Loop
   
@@ -34,20 +32,20 @@ function theBeatlesPlay(musicianArray,instrumentArray)
 
 
 
-function johnLennonFacts(facts)
+function johnLennonFacts(factArray)
 {
- /* var counter = 0;
+  var counter = 0;
   var tempArray = [];
-  while(counter < this.facts.length)
+  while(counter < factArray.length)
   {
-    tempArray[counter] = this.facts[counter].toString() + "!!!";
+    tempArray[counter] = " "+ factArray[counter].toString() + "!!!";
     counter++;
-  }*/
+  }
   return tempArray;
 }//johnlennonFacts() end
 
 
 
 //------------ TESTING ZOOOOONE!!! --------------
-alert(theBeatlesPlay(musicianArray,instrumentArray)); //calls theBeatlesPlay() and assings the return Array to outputArray
-alert(johnLennonFacts(facts));
+//alert(theBeatlesPlay(musicianArray,instrumentArray));
+//alert(johnLennonFacts(facts));
