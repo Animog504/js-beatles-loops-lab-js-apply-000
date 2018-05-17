@@ -1,5 +1,5 @@
-var musicianArray = ["John Lennon","Paul McCartney","Ringo Star","George Harrison"];
-var instrumentArray = ["Guitar","Bass Guitar","Lead Guitar","Drums"];
+/*var musicianArray = ["John Lennon","Paul McCartney","Ringo Star","George Harrison"];
+var instrumentArray = ["Guitar","Bass Guitar","Lead Guitar","Drums"];*/
 var outputArray = [];
 /*const facts = [
   "He was the last Beatle to learn to drive",
@@ -17,12 +17,12 @@ function theBeatlesPlay(mArray,iArray)
   
   for(var x=0;x < mArray.length; x++)
   {
+    musician = mArray[x].toString();
     for(var y=0; y < iArray.length; y++)
     {
-      musician = mArray[x].toString();
       instrument = iArray[y].toString();
       tempArray[counter] = musician + " plays " + instrument;  
-      counter++
+      counter++;
     }//instrumentArray For Loop
   }//musicianArray For Loop
   
