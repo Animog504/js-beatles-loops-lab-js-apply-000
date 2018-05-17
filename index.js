@@ -18,12 +18,9 @@ function theBeatlesPlay(mArray,iArray)
   for(var x=0;x < mArray.length; x++)
   {
     musician = mArray[x].toString();
-    for(var y=0; y < iArray.length; y++)
-    {
-      instrument = iArray[y].toString();
-      tempArray[counter] = musician + " plays " + instrument;  
-      counter++;
-    }//instrumentArray For Loop
+    instrument = iArray[x].toString();
+    tempArray[counter] = musician + " plays " + instrument;  
+    counter++;
   }//musicianArray For Loop
   
   return tempArray;
